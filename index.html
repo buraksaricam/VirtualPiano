@@ -1,0 +1,78 @@
+<!--
+  Burak SARIÇAM - @sefilseruvenci 
+  https://github.com/buraksaricam
+-->
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+  <meta charset="UTF-8" />
+  <title>VirtualPiano</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="img/favicon1.png" type="image/x-icon" />
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body bgcolor="#4f382e">
+  <div class="signature">Burak SARIÇAM - @sefilseruvenci</div>
+
+  <div id="piano">
+    <img class="logo" src="img/virtualpiano.png" alt="Virtual Piano Logo" />
+    <div class="keys">
+      <div class="key white--key" data-note="C1"><span class="note-name">C1</span></div>
+      <div class="key black--key" data-note="Csharp"><span class="note-name">C#</span></div>
+      <div class="key white--key" data-note="D1"><span class="note-name">D1</span></div>
+      <div class="key black--key" data-note="Dsharp"><span class="note-name">D#</span></div>
+      <div class="key white--key" data-note="E1"><span class="note-name">E1</span></div>
+      <div class="key white--key" data-note="F1"><span class="note-name">F1</span></div>
+      <div class="key black--key" data-note="Fsharp"><span class="note-name">F#</span></div>
+      <div class="key white--key" data-note="G1"><span class="note-name">G1</span></div>
+      <div class="key black--key" data-note="Gsharp"><span class="note-name">G#</span></div>
+      <div class="key white--key" data-note="A1"><span class="note-name">A1</span></div>
+      <div class="key black--key" data-note="Asharp"><span class="note-name">A#</span></div>
+      <div class="key white--key" data-note="B1"><span class="note-name">B1</span></div>
+      <div class="key white--key" data-note="C2"><span class="note-name">C2</span></div>
+      <div class="key black--key" data-note="Csharp2"><span class="note-name">C#2</span></div>
+      <div class="key white--key" data-note="D2"><span class="note-name">D2</span></div>
+      <div class="key black--key" data-note="Dsharp2"><span class="note-name">D#2</span></div>
+      <div class="key white--key" data-note="E2"><span class="note-name">E2</span></div>
+      <div class="key white--key" data-note="F2"><span class="note-name">F2</span></div>
+      <div class="key black--key" data-note="Fsharp2"><span class="note-name">F#2</span></div>
+      <div class="key white--key" data-note="G2"><span class="note-name">G2</span></div>
+      <div class="key black--key" data-note="Gsharp2"><span class="note-name">G#2</span></div>
+      <div class="key white--key" data-note="A2"><span class="note-name">A2</span></div>
+      <div class="key black--key" data-note="Asharp2"><span class="note-name">A#2</span></div>
+      <div class="key white--key" data-note="B2"><span class="note-name">B2</span></div>
+      <div class="key white--key" data-note="C3"><span class="note-name">C3</span></div>
+      <div class="key black--key" data-note="Csharp3"><span class="note-name">C#3</span></div>
+      <div class="key white--key" data-note="D3"><span class="note-name">D3</span></div>
+      <div class="key black--key" data-note="Dsharp3"><span class="note-name">D#3</span></div>
+      <div class="key white--key" data-note="E3"><span class="note-name">E3</span></div>
+      <div class="key white--key" data-note="F3"><span class="note-name">F3</span></div>
+      <div class="key black--key" data-note="Fsharp3"><span class="note-name">F#3</span></div>
+      <div class="key white--key" data-note="G3"><span class="note-name">G3</span></div>
+      <div class="key black--key" data-note="Gsharp3"><span class="note-name">G#3</span></div>
+      <div class="key white--key" data-note="A3"><span class="note-name">A3</span></div>
+      <div class="key black--key" data-note="Asharp3"><span class="note-name">A#3</span></div>
+      <div class="key white--key" data-note="B3"><span class="note-name">B3</span></div>
+    
+    </div>
+    <div class="controls">
+      <label>
+        <input type="checkbox" id="toggle-notes"> show note Names
+      </label>
+      <label>
+        <input type="checkbox" id="toggle-key-info"> show keyboard shortcuts
+      </label>
+    </div>
+  </div>
+  <div class="key-info">
+    <h3>keyboard shortcuts</h3>
+    <p>Lower Octave: Z, S, X, D, C, V, G, B, H, N, J, M</p>
+    <p>Middle Octave: Q, 2, W, 3, E, 4, R, T, 6, Y, 7, U</p>
+    <p>Upper Octave: I, 9, O, 0, P, Ğ, Ü</p>
+  </div>
+  <script src="script.js"></script>
+  
+</body>
+
+</html>
