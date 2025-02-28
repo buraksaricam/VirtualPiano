@@ -6,15 +6,16 @@ document.addEventListener('DOMContentLoaded', () => {
   let isMouseDown = false;
 
 const keyMap = {
-  'a': 'C1', 's': 'D1', 'd': 'E1', 'f': 'F1', 'g': 'G1', 'h': 'A1', 'j': 'B1', 'k': 'C2', 
-  'l': 'D2', 'p': 'Dsharp2', ';': 'E2',
+  'z': 'C1', 's': 'D1', 'x': 'E1', 'd': 'F1', 'c': 'G1', 'v': 'A1', 'b': 'B1', 'h': 'C2', 
+  'n': 'D2', 'j': 'E2', 'm': 'F2',
   
-  'q': 'Csharp', 'w': 'Dsharp', 'e': 'Fsharp', 'r': 'Gsharp', 't': 'Asharp', 'y': 'B1', 'u': 'Csharp2', 'i': 'Dsharp2', 
-  'o': 'E2', 'l': 'Fsharp2',
+  'q': 'Csharp', 'w': 'Dsharp', 'e': 'Fsharp', 'r': 'Gsharp', 't': 'Asharp', 'y': 'B2', 
+  'u': 'Csharp2', 'i': 'Dsharp2', 'o': 'Fsharp2', 'p': 'Gsharp2',
   
-  'z': 'F2', 'x': 'G2', 'c': 'A2', 'v': 'B2', 'b': 'C3', 'n': 'D3', 'm': 'E3', ',': 'F3', '.': 'G3', '/': 'A3',
-  '\'': 'Asharp3', ']': 'B3'
+  '1': 'A2', '2': 'B2', '3': 'C3', '4': 'D3', '5': 'E3', '6': 'F3', '7': 'G3', '8': 'A3', 
+  '9': 'B3', '0': 'C4'
 };
+
 
 
 
