@@ -5,15 +5,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const keyInfo = document.querySelector('.key-info');
   let isMouseDown = false;
 
-  const keyMap = {
-    'z': 'C1', 's': 'Csharp', 'x': 'D1', 'd': 'Dsharp', 'c': 'E1', 'v': 'F1',
-    'g': 'Fsharp', 'b': 'G1', 'h': 'Gsharp', 'n': 'A1', 'j': 'Asharp', 'm': 'B1',
-    ',': 'C2', 'l': 'Csharp2', '.': 'D2', 'ş': 'Dsharp2', '/': 'E2',
-    'q': 'F2', '2': 'Fsharp2', 'w': 'G2', '3': 'Gsharp2', 'e': 'A2',
-    '4': 'Asharp2', 'r': 'B2', 't': 'C3', '6': 'Csharp3', 'y': 'D3',
-    '7': 'Dsharp3', 'u': 'E3', 'ı': 'F3', '9': 'Fsharp3', 'o': 'G3',
-    '0': 'Gsharp3', 'p': 'A3', 'ğ': 'Asharp3', 'ü': 'B3'
-  };
+  const keyMap = { // for English Q Keyboard
+  'a': 'C1', 'w': 'Csharp', 's': 'D1', 'e': 'Dsharp', 'd': 'E1', 'f': 'F1',
+  't': 'Fsharp', 'g': 'G1', 'y': 'Gsharp', 'h': 'A1', 'u': 'Asharp', 'j': 'B1',
+  'k': 'C2', 'o': 'Csharp2', 'l': 'D2', 'p': 'Dsharp2', ';': 'E2',
+  'z': 'F2', 's': 'Fsharp2', 'x': 'G2', 'd': 'Gsharp2', 'c': 'A2',
+  'f': 'Asharp2', 'v': 'B2', 'b': 'C3', 'h': 'Csharp3', 'n': 'D3',
+  'j': 'Dsharp3', 'm': 'E3', ',': 'F3', 'l': 'Fsharp3', '.': 'G3',
+  ';': 'Gsharp3', '/': 'A3', '\'': 'Asharp3', ']': 'B3'
+};
+
 
   document.addEventListener('mousedown', (e) => {
     e.preventDefault();
