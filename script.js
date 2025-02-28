@@ -6,17 +6,14 @@ document.addEventListener('DOMContentLoaded', () => {
   let isMouseDown = false;
 
 const keyMap = {
-  'z': 'C1', 's': 'D1', 'x': 'E1', 'd': 'F1', 'c': 'G1', 'v': 'A1', 'b': 'B1', 'h': 'C2', 
-  'n': 'D2', 'j': 'E2', 'm': 'F2',
-  
-  'q': 'Csharp', 'w': 'Dsharp', 'e': 'Fsharp', 'r': 'Gsharp', 't': 'Asharp', 'y': 'B2', 
-  'u': 'Csharp2', 'i': 'Dsharp2', 'o': 'Fsharp2', 'p': 'Gsharp2',
-  
-  '1': 'A2', '2': 'B2', '3': 'C3', '4': 'D3', '5': 'E3', '6': 'F3', '7': 'G3', '8': 'A3', 
-  '9': 'B3', '0': 'C4'
-};
-
-
+    'z': 'C1', 's': 'Csharp', 'x': 'D1', 'd': 'Dsharp', 'c': 'E1', 'v': 'F1',
+    'g': 'Fsharp', 'b': 'G1', 'h': 'Gsharp', 'n': 'A1', 'j': 'Asharp', 'm': 'B1',
+    ',': 'C2', 'l': 'Csharp2', '.': 'D2', 'ş': 'Dsharp2', '/': 'E2',
+    'q': 'F2', '2': 'Fsharp2', 'w': 'G2', '3': 'Gsharp2', 'e': 'A2',
+    '4': 'Asharp2', 'r': 'B2', 't': 'C3', '6': 'Csharp3', 'y': 'D3',
+    '7': 'Dsharp3', 'u': 'E3', 'ı': 'F3', '9': 'Fsharp3', 'o': 'G3',
+    '0': 'Gsharp3', 'p': 'A3', 'ğ': 'Asharp3', 'ü': 'B3'
+  };
 
 
   document.addEventListener('mousedown', (e) => {
