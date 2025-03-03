@@ -12,7 +12,7 @@ const keyMap = {
     'q': 'F2', '2': 'Fsharp2', 'w': 'G2', '3': 'Gsharp2', 'e': 'A2',
     '4': 'Asharp2', 'r': 'B2', 't': 'C3', '6': 'Csharp3', 'y': 'D3',
     '7': 'Dsharp3', 'u': 'E3', 'ı': 'F3', '9': 'Fsharp3', 'o': 'G3',
-    '0': 'Gsharp3', 'p': 'A3', 'ğ': 'Asharp3', 'ü': 'B3'
+    '0': 'Gsharp3', 'p': 'A3', 'l': 'Asharp3', 'k': 'B3'
   };
 
 
